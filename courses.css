@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+}
+
+.my-list {
+   height: 500px;
+    margin: 630px;
+    padding: 10px;
+    margin-top: 200px;
+    margin-left: 650px; 
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px 5px #0400ff,
+    0 0 20px 15px #1100ff,
+    0 0 10px 30px #0130ff,
+    0 0 35px 50px #1a03ec;
+    border-radius: 20px;
+    position: relative;
+    animation: goamove 5s 1;
+    animation-timing-function: linear;
+    animation: my-animation 3s infinite;
+    position: fixed;
+}
+@keyframes my-animation {
+  20% {
+    transform: translateX(20px);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  70% {
+    transform: translateX(0);
+  }
+}
+
+  
+  .my-list ul {
+    padding: 30px;
+    margin: 5px;
+  }
+  
+  .my-list li {
+    padding: 5px 0;
+  }
